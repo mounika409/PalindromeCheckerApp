@@ -2,7 +2,7 @@ public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        // Method 1: Reverse string method
+        // First Method: Reverse String
         String original = "level";
         String reversed = "";
 
@@ -16,7 +16,12 @@ public class PalindromeCheckerApp {
             System.out.println(original + " is NOT a Palindrome.");
         }
 
-        // Method 2: Compare characters from both ends
+        // Calling second method
+        checkPalindrome();
+    }
+
+    // Second Method
+    static void checkPalindrome() {
         String str = "madam";
         boolean ispal = true;
 
